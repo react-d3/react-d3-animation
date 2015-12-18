@@ -30,6 +30,7 @@ export default class Animation extends Component {
 
     var that = this;
 
+    if(that.animateTimeout) clearTimeout(that.animateTimeout);
     if(that.animateInterval) clearInterval(that.animateInterval);
 
     var frame = 0;
@@ -45,19 +46,21 @@ export default class Animation extends Component {
       that.interpolate[key] = d3.interpolate(that.state[key], nextProps[key])
     })
 
-    this.animateInterval = setInterval(() => {
-      frame++;
+    this.animateTimeout = setTimeout(() => {
+      that.animateInterval = setInterval(() => {
+        frame++;
 
-      var newState = {};
-      _.forIn(filter, function(val, key) {
-        newState[key] = that.interpolate[key](frame / time)
-      })
+        var newState = {};
+        _.forIn(filter, function(val, key) {
+          newState[key] = that.interpolate[key](frame / time)
+        })
 
-      updateState(newState);
+        updateState(newState);
 
-      if(frame >= time) clearInterval(that.animateInterval);
+        if(frame >= time) clearInterval(that.animateInterval);
 
-    }, 1000 / time)
+      }, 1000 / time)
+    }, delay)
   }
 
   updateState(props) {

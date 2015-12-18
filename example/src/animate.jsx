@@ -44,6 +44,7 @@ var Animation = require('../../lib/index').Animation;
             height= {this.state.height}
             color= {this.state.color}
             data= {this.state.dataSet}
+            delay= {1000}
           >
             {function(state) {
               return (
