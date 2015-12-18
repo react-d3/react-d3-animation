@@ -15,7 +15,8 @@ module.exports = [{
   name: 'react-d3-animate',
   devtool: ENV ? "source-map": '',
   entry: {
-    animate: './example/src/animate.jsx'
+    animate: './example/src/animate.jsx',
+    line: './example/src/line.jsx'
   },
 
   output: {
@@ -33,6 +34,10 @@ module.exports = [{
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.json$/,
+        loader: "json-loader"
       }
     ],
   },

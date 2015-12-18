@@ -1,5 +1,6 @@
 import {
   defualt as React,
+  PropTypes,
   Component
 }from 'react';
 
@@ -18,6 +19,13 @@ export default class Animation extends Component {
     duration: 250,
     delay: 0,
     fps: 60
+  }
+
+  static propTypes = {
+    ease: PropTypes.string.isRequired,
+    duration: PropTypes.number.isRequired,
+    delay: PropTypes.number.isRequired,
+    fps: PropTypes.number.isRequired
   }
 
   componentWillReceiveProps(nextProps) {
@@ -43,7 +51,8 @@ export default class Animation extends Component {
     // register interpolate
     this.interpolate = {};
     _.forIn(filter, function(val, key) {
-      that.interpolate[key] = d3.interpolate(that.state[key], nextProps[key])
+      if(_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val))
+        that.interpolate[key] = d3.interpolate(that.state[key], nextProps[key])
     })
 
     this.animateTimeout = setTimeout(() => {
@@ -52,7 +61,8 @@ export default class Animation extends Component {
 
         var newState = {};
         _.forIn(filter, function(val, key) {
-          newState[key] = that.interpolate[key](frame / time)
+          if(_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val))
+            newState[key] = that.interpolate[key](frame / time)
         })
 
         updateState(newState);

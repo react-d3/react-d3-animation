@@ -10,6 +10,9 @@ UNDER DEVELOPMENT DON'T USE IN PRODUCTION
 
 <img src="./example/img/sample.gif" width="300"/>
 
+#### Line Chart
+
+<img src="./example/img/line.gif" width="300"/>
 ## Support animate type
 
 - color
