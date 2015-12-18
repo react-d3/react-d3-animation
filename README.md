@@ -1,4 +1,4 @@
-# react-d3-animate
+# react-d3-animation
 
 Animation component in react-d3.
 
