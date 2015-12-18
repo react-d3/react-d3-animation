@@ -22,6 +22,7 @@ UNDER DEVELOPMENT DON'T USE IN PRODUCTION
 - ease
 - duration
 - fps
+- delay
 
 ## Example
 
