@@ -17,6 +17,12 @@ UNDER DEVELOPMENT DON'T USE IN PRODUCTION
 - array
 - object
 
+## Settings
+
+- ease
+- duration
+- fps
+
 ## Example
 
 ```js
