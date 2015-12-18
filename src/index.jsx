@@ -1,0 +1,2 @@
+
+export Animation from './animate';
