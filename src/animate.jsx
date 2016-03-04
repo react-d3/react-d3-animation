@@ -53,7 +53,7 @@ export default class Animation extends Component {
     this.interpolate = {};
 
     _.forIn(filter, function(val, key) {
-      if(_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val) || !_.isFunction(val))
+      if((_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val)) && !_.isFunction(val))
         that.interpolate[key] = d3.interpolate(that.state[key], nextProps[key])
     })
 
@@ -63,7 +63,7 @@ export default class Animation extends Component {
 
         var newState = {};
         _.forIn(filter, function(val, key) {
-          if(_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val) || !_.isFunction(val))
+          if((_.isObject(val) || _.isNumber(val) || _.isString(val) || _.isArray(val)) && !_.isFunction(val))
             newState[key] = that.interpolate[key](frame / time)
         })
 
