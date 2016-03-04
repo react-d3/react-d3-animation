@@ -6,6 +6,7 @@ import {
 
 import _ from 'lodash';
 import d3 from 'd3';
+import D3Timer from 'd3-timer'
 
 export default class Animation extends Component {
   constructor(props) {
@@ -38,8 +39,8 @@ export default class Animation extends Component {
 
     var that = this;
 
-    if(that.animateTimeout) clearTimeout(that.animateTimeout);
-    if(that.animateInterval) clearInterval(that.animateInterval);
+    if(that.animateTimeout) that.animateTimeout.stop();
+    if(that.animateInterval) that.animateInterval.stop();
 
     var frame = 0;
     var time = fps * duration / 1000;
@@ -55,8 +56,8 @@ export default class Animation extends Component {
         that.interpolate[key] = d3.interpolate(that.state[key], nextProps[key])
     })
 
-    this.animateTimeout = setTimeout(() => {
-      that.animateInterval = setInterval(() => {
+    this.animateTimeout = D3Timer.timeout(() => {
+      that.animateInterval = D3Timer.interval(() => {
         frame++;
 
         var newState = {};
@@ -67,7 +68,7 @@ export default class Animation extends Component {
 
         updateState(newState);
 
-        if(frame >= time) clearInterval(that.animateInterval);
+        if(frame >= time) that.animateInterval.stop();
 
       }, 1000 / time)
     }, delay)

@@ -1,48 +1,50 @@
-
 'use strict';
+var path = require('path');
+var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var path = require('path'),
-  webpack = require('webpack'),
-  nodeModulesPath = path.join(__dirname, 'node_modules');
+var js_dist = path.join(__dirname, './example/dist/origin');
 
-// 0 stands for development, 1 stands for production
-// for development mode: NODE_ENV=0 webpack
-// for production mode: NODE_ENV=1 webpack
-var ENV = !!(+process.env.NODE_ENV || 0);
-
-
-module.exports = [{
-  name: 'react-d3-animate',
-  devtool: ENV ? "source-map": '',
+module.exports = {
+  devtool: 'eval-source-map',
   entry: {
-    animate: './example/src/animate.jsx',
-    line: './example/src/line.jsx'
+    index: ['webpack-hot-middleware/client', './example/index.js']
   },
-
   output: {
-    path: path.join(__dirname, './example/dist'),
-    filename: ENV ? '[name].min.js': '[name].js'
+    path: js_dist,
+    filename: '[name].js',
+    publicPath: '/static/'
   },
-
+  resolve: {
+    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx']
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
+    new webpack.DefinePlugin({
+      "process.env": {
+        NODE_ENV: JSON.stringify("development")
+      }
+    }),
+    new ExtractTextPlugin('[name].css', { allChunks: true })
+  ],
   module: {
     loaders: [
       {
         test: [/\.jsx$/, /\.js$/],
-        exclude: /node_modules/,
-        loaders: ["jsx-loader"],
+        loaders: ["babel"],
+        exclude: /node_modules/
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        loader: 'style-loader!css-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.json$/,
-        loader: "json-loader"
+        loader: "json-loader",
+        exclude: /node_modules/
       }
     ],
-  },
-
-  resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx']
   }
-}];
+}

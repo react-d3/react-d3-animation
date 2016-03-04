@@ -1,0 +1,14 @@
+[
+    {
+        "OS": "Windows",
+        "cnt": 20
+    },
+    {
+        "OS": "Mac OS",
+        "cnt": 10
+    },
+    {
+        "OS": "Android",
+        "cnt": 30
+    }
+]

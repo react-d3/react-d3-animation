@@ -1,0 +1,1433 @@
+[
+    {
+        "date": "2016-02-01",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 4
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 4
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 4
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 2
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 4
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.canner.io/gallery",
+                "cnt": 2
+            },
+            {
+                "referer": "http://denguefever.csie.ncku.edu.tw/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 4
+    },
+    {
+        "date": "2016-02-02",
+        "city": [],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-03",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 5
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 7
+            },
+            {
+                "country": "JP",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 6
+            },
+            {
+                "engine": "Trident",
+                "cnt": 1
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 8
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 8
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 6
+            },
+            {
+                "browser": "IE",
+                "cnt": 1
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://taiwanstat-about-us.cannerapp.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.canner.io/gallery",
+                "cnt": 1
+            },
+            {
+                "referer": "http://chihsuan.github.io/slides/data_visualization/",
+                "cnt": 5
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 1
+            }
+        ],
+        "cnt": 8
+    },
+    {
+        "date": "2016-02-04",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "Trident",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "IE",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://water.taiwanstat.com/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-05",
+        "city": [],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 2
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 2
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 2
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 2
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 2
+            }
+        ],
+        "cnt": 2
+    },
+    {
+        "date": "2016-02-06",
+        "city": [
+            {
+                "city": "Storrs Mansfield",
+                "cnt": 2
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            },
+            {
+                "country": "US",
+                "cnt": 2
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 3
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 3
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.taiwanstat.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "https://www.google.com/",
+                "cnt": 2
+            }
+        ],
+        "cnt": 3
+    },
+    {
+        "date": "2016-02-07",
+        "city": [
+            {
+                "city": "Taichung",
+                "cnt": 3
+            },
+            {
+                "city": "Taipei",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 3
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 2
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 5
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Mac OS",
+                "cnt": 3
+            },
+            {
+                "OS": "Windows",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 2
+            }
+        ],
+        "referer": [
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 2
+            },
+            {
+                "referer": "http://netdbncku.cannerapp.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://taiwanstat-about-us.cannerapp.com/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 5
+    },
+    {
+        "date": "2016-02-09",
+        "city": [
+            {
+                "city": "Beijing",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "CN",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "mobile",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "iOS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Mobile Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-11",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "mobile",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Android",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/research/lab",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-12",
+        "city": [],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "Gecko",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Firefox",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.taiwanstat.com/media_reports/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-15",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 8
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 10
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 9
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 9
+            },
+            {
+                "device": "mobile",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 4
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 5
+            },
+            {
+                "OS": "Android",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 4
+            },
+            {
+                "browser": "Safari",
+                "cnt": 5
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 4
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 2
+            },
+            {
+                "referer": "http://www.canner.io/gallery",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 2
+            }
+        ],
+        "cnt": 10
+    },
+    {
+        "date": "2016-02-16",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 2
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 5
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 5
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Mac OS",
+                "cnt": 2
+            },
+            {
+                "OS": "Windows",
+                "cnt": 3
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 5
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/msic/msic.php?content=Faculty",
+                "cnt": 1
+            },
+            {
+                "referer": "http://real.taiwanstat.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.taiwanstat.com/opendata/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 5
+    },
+    {
+        "date": "2016-02-17",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 2
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 4
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 4
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 3
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            },
+            {
+                "browser": "Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 2
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 1
+            },
+            {
+                "referer": "http://taiwanstat-about-us.cannerapp.com/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 4
+    },
+    {
+        "date": "2016-02-18",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 2
+            },
+            {
+                "city": "Yünlin",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 3
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "mobile",
+                "cnt": 2
+            },
+            {
+                "device": "desktop",
+                "cnt": 2
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Android",
+                "cnt": 2
+            },
+            {
+                "OS": "Windows",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 3
+            },
+            {
+                "referer": "http://www.canner.io/gallery",
+                "cnt": 1
+            }
+        ],
+        "cnt": 4
+    },
+    {
+        "date": "2016-02-19",
+        "city": [
+            {
+                "city": "Hsinchu",
+                "cnt": 1
+            },
+            {
+                "city": "Tainan",
+                "cnt": 3
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 6
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 5
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 6
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 6
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 5
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://taiwanstat-about-us.cannerapp.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.taiwanstat.com/opendata/post/2015/08/13/typhoon-intensity.html",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/research/lab",
+                "cnt": 3
+            },
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 6
+    },
+    {
+        "date": "2016-02-21",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 3
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 4
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 4
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Mac OS",
+                "cnt": 3
+            },
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Safari",
+                "cnt": 1
+            },
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 2
+            },
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 4
+    },
+    {
+        "date": "2016-02-22",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 3
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 3
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 3
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Mac OS",
+                "cnt": 2
+            },
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Safari",
+                "cnt": 1
+            },
+            {
+                "browser": "Chrome",
+                "cnt": 2
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 1
+            },
+            {
+                "referer": "http://taiwanstat-about-us.cannerapp.com/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 3
+    },
+    {
+        "date": "2016-02-23",
+        "city": [
+            {
+                "city": "Mountain View",
+                "cnt": 1
+            },
+            {
+                "city": "Taipei",
+                "cnt": 3
+            }
+        ],
+        "country": [
+            {
+                "country": "US",
+                "cnt": 1
+            },
+            {
+                "country": "TW",
+                "cnt": 4
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 4
+            }
+        ],
+        "device": [
+            {
+                "device": "mobile",
+                "cnt": 2
+            },
+            {
+                "device": "desktop",
+                "cnt": 3
+            }
+        ],
+        "OS": [
+            {
+                "OS": "iOS",
+                "cnt": 1
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 1
+            },
+            {
+                "OS": "Windows",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Mobile Safari",
+                "cnt": 1
+            },
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 3
+            }
+        ],
+        "cnt": 5
+    },
+    {
+        "date": "2016-02-24",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 2
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 2
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 2
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            },
+            {
+                "device": "mobile",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            },
+            {
+                "OS": "iOS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 1
+            },
+            {
+                "browser": "Mobile Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 1
+            }
+        ],
+        "cnt": 2
+    },
+    {
+        "date": "2016-02-25",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 20
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 21
+            },
+            {
+                "country": "AP",
+                "cnt": 7
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 25
+            },
+            {
+                "engine": "Gecko",
+                "cnt": 4
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 23
+            },
+            {
+                "device": "mobile",
+                "cnt": 6
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 13
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 8
+            },
+            {
+                "OS": "Android",
+                "cnt": 6
+            },
+            {
+                "OS": "Linux",
+                "cnt": 2
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 22
+            },
+            {
+                "browser": "Safari",
+                "cnt": 3
+            },
+            {
+                "browser": "Firefox",
+                "cnt": 4
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 11
+            },
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 2
+            },
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 3
+            },
+            {
+                "referer": "http://netdbncku.cannerapp.com/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 2
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/research/lab",
+                "cnt": 1
+            }
+        ],
+        "cnt": 29
+    },
+    {
+        "date": "2016-02-26",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 4
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 7
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 7
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 7
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 6
+            },
+            {
+                "OS": "Mac OS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 6
+            },
+            {
+                "browser": "Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacher",
+                "cnt": 2
+            },
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 1
+            },
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/research/lab",
+                "cnt": 2
+            }
+        ],
+        "cnt": 7
+    },
+    {
+        "date": "2016-02-27",
+        "city": [],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "https://www.google.com.tw/",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-28",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 1
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 1
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 1
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 1
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Mac OS",
+                "cnt": 1
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 1
+            }
+        ],
+        "cnt": 1
+    },
+    {
+        "date": "2016-02-29",
+        "city": [
+            {
+                "city": "Taipei",
+                "cnt": 6
+            }
+        ],
+        "country": [
+            {
+                "country": "TW",
+                "cnt": 7
+            }
+        ],
+        "engine": [
+            {
+                "engine": "WebKit",
+                "cnt": 7
+            }
+        ],
+        "device": [
+            {
+                "device": "desktop",
+                "cnt": 3
+            },
+            {
+                "device": "mobile",
+                "cnt": 4
+            }
+        ],
+        "OS": [
+            {
+                "OS": "Windows",
+                "cnt": 3
+            },
+            {
+                "OS": "iOS",
+                "cnt": 4
+            }
+        ],
+        "browser": [
+            {
+                "browser": "Chrome",
+                "cnt": 3
+            },
+            {
+                "browser": "Safari",
+                "cnt": 3
+            },
+            {
+                "browser": "Mobile Safari",
+                "cnt": 1
+            }
+        ],
+        "referer": [
+            {
+                "referer": "http://www.csie.ncku.edu.tw/ncku_csie/depmember/teacherdetail/id/35",
+                "cnt": 4
+            },
+            {
+                "referer": "http://netdb.csie.ncku.edu.tw/",
+                "cnt": 2
+            }
+        ],
+        "cnt": 7
+    }
+]
