@@ -2,10 +2,6 @@
 
 Animation component in react-d3.
 
-## NOTICE
-
-UNDER DEVELOPMENT DON'T USE IN PRODUCTION
-
 ## Sample
 
 <img src="./example/img/sample.gif" width="300"/>
